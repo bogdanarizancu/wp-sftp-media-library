@@ -1,11 +1,11 @@
 {
-    "require": {
-        "phpseclib/phpseclib": "^3.0"
-    },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.7"
     },
 	"scripts": {
 		"format-code": "./vendor/bin/phpcbf --standard=ruleset.xml ./*.php"
-	}
+	},
+    "require": {
+        "phpseclib/phpseclib": "^3.0"
+    }
 }

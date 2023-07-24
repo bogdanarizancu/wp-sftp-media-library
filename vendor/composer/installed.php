@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'c6bbaf8489bf461d2faa1d4d9a40a447b3a44b40',
         'name' => '__root__',
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'c6bbaf8489bf461d2faa1d4d9a40a447b3a44b40',
             'dev_requirement' => false,
         ),
         'paragonie/constant_time_encoding' => array(
@@ -45,15 +45,6 @@
             'aliases' => array(),
             'reference' => '4580645d3fc05c189024eb3b834c6c1e4f0f30a1',
             'dev_requirement' => false,
-        ),
-        'squizlabs/php_codesniffer' => array(
-            'pretty_version' => '3.7.2',
-            'version' => '3.7.2.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
-            'aliases' => array(),
-            'reference' => 'ed8e00df0a83aa96acf703f8c2979ff33341f879',
-            'dev_requirement' => true,
         ),
     ),
 );
